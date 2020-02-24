@@ -1,0 +1,27 @@
+{
+  "name": "nodedynamopackages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "node": true
+    }
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-prettify": "^0.1.1",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
